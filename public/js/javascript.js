@@ -1,3 +1,7 @@
+$("document").ready(function () {
+    $("a.button").fancybox();
+});
+
 function startLightBox(){
 	var lbBg = document.getElementById("lightBoxBg");
 	var lb = document.getElementById("lightBox");
